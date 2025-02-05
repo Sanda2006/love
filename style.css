@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ff4081;
+}
+
+.buttons button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#yesBtn {
+    background-color: #ff4081;
+    color: white;
+}
+
+#noBtn {
+    background-color: #ccc;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.celebration {
+    font-size: 24px;
+    color: #ff4081;
+    font-weight: bold;
+}
+
+.jumping-guy {
+    font-size: 50px;
+    animation: jump 1s infinite alternate;
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
